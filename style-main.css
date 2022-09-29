@@ -1,0 +1,33 @@
+.car-bg-img {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    top: 490px;
+}
+
+.div-info-newcar {
+    margin-left: 70px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.div-info-newcar h1{
+    font-size: 2.6rem;
+}
+
+.div-info-newcar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.div-info-newcar input {
+    height: 50px;
+    width: 280px;
+    font-size: 14px;
+    background-color: rgb(66,133,244);
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
