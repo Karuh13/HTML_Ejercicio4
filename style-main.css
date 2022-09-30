@@ -1,23 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+}
+
 .car-bg-img {
-    position: absolute;
     display: flex;
     align-items: flex-end;
-    top: 490px;
+    max-height: 670px;
+    width: 100%;
 }
 
 .div-info-newcar {
-    margin-left: 70px;
+    margin-left: 5%;
+    margin-top: 57.5vh;
     color: whitesmoke;
     font-weight: bold;
-
 }
 
 .div-info-newcar h1{
-    font-size: 2.6rem;
+    font-size: 3.2rem;
 }
 
 .div-info-newcar h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 4px;
 }
 
@@ -31,3 +39,83 @@
     font-weight: bold;
 }
 
+.div-main-info {
+    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.div-car-searcher {
+    margin-top: 30vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.div-car-searcher > div:first-child {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.nav-horizontal-scroll {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 100%;
+
+}
+
+.car-visor {
+    height: 80vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+
+.car-visor > div {
+    margin: 1.5%;
+}
+
+.div-news {
+    display: flex;
+    flex-flow: column;
+}
+
+.div-news > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-flow: wrap;
+    margin-bottom: 10vh;
+}
+
+.post {
+    border: 1px lightgray solid;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.links > * {
+    width: 24%;
+    height: 10vw;
+    background-color: grey;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.links p {
+    margin-top: 10px;
+}

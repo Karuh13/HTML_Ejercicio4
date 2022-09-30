@@ -1,0 +1,41 @@
+footer ul {
+    list-style: none;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div:first-child {
+    height: 50vh;
+    padding: 8% 15%;
+    margin: auto 0.5vw;
+    background-color: lightgray;
+}
+
+footer > div:last-child {
+    height: 10vh;
+    padding: 1.5% 15%;
+}
+
+.list-legal-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+    width: 50vw;
+}
+
+.footer-list li {
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-list li:first-child {
+    color: black;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: large;
+}

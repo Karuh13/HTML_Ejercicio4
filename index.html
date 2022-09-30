@@ -1,55 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMW Home</title>
-    <link rel="stylesheet" href="style-header.css">
-    <link rel="stylesheet" href="style-main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style-header.css" />
+    <link rel="stylesheet" href="style-main.css" />
+    <link rel="stylesheet" href="style-footer.css">
+    <script src="https://kit.fontawesome.com/5083d04649.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <header class="header-container">
-        <nav>
-            <div class="nav-bar">
-                <div>
-                    <a href="">Modelos</a>
-                    <a href="">Promociones</a>
-                    <a href="">Servicios</a>
-                    <a href="">Universo BMW</a>
-                </div>
-                <div>
-                    <a href=""><img src="https://place-hold.it/25x25" alt="Logo"></a>
-                    <a href=""><img src="https://place-hold.it/25x25" alt="Logo"></a>
-                    <a href=""><img src="https://place-hold.it/25x25" alt="Logo"></a>
-                </div>   
-            </div>
-            <div class="space-nav"></div>
-            <div class="logo-div">
-                <div>
-                    <img src="./assets/BMW_Logo.png" alt="BMW Logo">
-                </div>
-                <p>¿Te gusta conducir?</p>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-bar">
+          <div>
+            <a href="">Modelos</a>
+            <a href="">Promociones</a>
+            <a href="">Servicios</a>
+            <a href="">Universo BMW</a>
+          </div>
+          <div>
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-sharp fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+        <div class="space-nav"></div>
+        <div class="logo-div">
+          <div>
+            <img src="./assets/BMW_Logo.png" alt="BMW Logo" />
+          </div>
+          <p>¿Te gusta conducir?</p>
+        </div>
+      </nav>
+      <div class="car-bg-img">
+        <div class="div-info-newcar">
+          <h1>TU BMW CON DISPONIBILIDAD INMEDIATA</h1>
+          <h2>VEHÍCULOS NUEVOS EN STOCK</h2>
+          <input type="button" value="Descúbrelo" />
+        </div>
+      </div>
     </header>
     <main>
-        <div>
-            <div class="car-bg-img">
-                <div class="div-info-newcar">
-                    <h1>TU BMW CON DISPONIBILIDAD INMEDIATA</h1>
-                    <h2>VEHÍCULOS NUEVOS EN STOCK</h2>
-                    <form>
-                        <input type="button" value="Descúbrelo">
-                    </form>
+      <div class="div-main-info">
+        <div class="div-car-searcher">
+          <div>
+            <input type="button" value="Series" />
+            <nav class="nav-horizontal-scroll">
+              <input type="button" value="Cabrio" />
+              <input type="button" value="Cabrio" />
+              <input type="button" value="Cabrio" />
+              <input type="button" value="Cabrio" />
+              <input type="button" value="Cabrio" />
+              <input type="button" value="Cabrio" />
+              <input type="button" value="Cabrio" />
+            </nav>
+          </div>
+          <div class="car-visor">
+            <div>
+              <img src="https://place-hold.it/280x160" alt="" />
+                <div>
+                    <h3>Nombre coche</h3>
+                    <p>Precio coche €</p>
+                </div>
+                <div>
+                    <input type="button" value="Configurar">
+                    <input type="button" value="Explorar">
+
                 </div>
             </div>
-            <div class="test1" style="height: 500px;">
+            <div>
+              <img src="https://place-hold.it/280x160" alt="" />
             </div>
+            <div>
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+            <div>
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+            <div>
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+          </div>
         </div>
+        <div class="div-news">
+          <div>
+            <div class="post">
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+            <div class="post">
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+            <div class="post">
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+            <div class="post">
+              <img src="https://place-hold.it/280x160" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="post">
+              <img src="https://place-hold.it/610x345" alt="" />
+            </div>
+            <div class="post">
+              <img src="https://place-hold.it/610x345" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="links">
+          <div>
+            <i class="fa-solid fa-car"></i>
+            <p>Configuración</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-rectangle-list"></i>
+            <p>Catálogos</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-comment-dots"></i>
+            <p>Pide una oferta</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-image-portrait"></i>
+            <p>Contacto</p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-
+      <div>
+        <ul class="footer-list">
+            <li>First</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+        </ul>
+        <ul class="footer-list">
+            <li>First</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+        </ul>
+        <ul class="footer-list">
+            <li>First</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+        </ul>
+        <ul class="footer-list">
+            <li>First</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+        </ul>
+      </div>
+      <div>
+        <p class="copyright">© BMW ES 2018</p>
+        <div>
+            <ul class="list-legal-links">
+                <li><a href="">Cookies</a></li>
+                <li><a href="">Aviso legal</a></li>
+                <li><a href="">Política de Privacidad</a></li>
+                <li><a href="">Condiciones de Uso en RR.SS</a></li>
+                <li><a href="">Política de Privacidad RR.SS</a></li>
+            </ul>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
