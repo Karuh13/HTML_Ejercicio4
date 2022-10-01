@@ -5,40 +5,6 @@ main {
     flex-flow: column;
 
 }
-
-.car-bg-img {
-    display: flex;
-    align-items: flex-end;
-    max-height: 670px;
-    width: 100%;
-}
-
-.div-info-newcar {
-    margin-left: 5%;
-    margin-top: 57.5vh;
-    color: whitesmoke;
-    font-weight: bold;
-}
-
-.div-info-newcar h1{
-    font-size: 3.2rem;
-}
-
-.div-info-newcar h2 {
-    font-size: 1.75rem;
-    margin-bottom: 4px;
-}
-
-.div-info-newcar input {
-    height: 50px;
-    width: 280px;
-    font-size: 14px;
-    background-color: rgb(66,133,244);
-    border: none;
-    color: whitesmoke;
-    font-weight: bold;
-}
-
 .div-main-info {
     width: 90%;
     padding-left: 10%;
@@ -72,7 +38,6 @@ main {
 }
 
 .car-visor {
-    height: 80vh;
     display: flex;
     flex-flow: wrap;
     justify-content: flex-start;
