@@ -9,9 +9,17 @@ footer div {
 
 footer > div:first-child {
     height: 50vh;
-    padding: 8% 15%;
+    padding: 5% 15%;
     margin: auto 0.5vw;
     background-color: lightgray;
+}
+
+.lists-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px rgb(160, 160, 160) solid;
+    padding-top: 3%;
 }
 
 footer > div:last-child {

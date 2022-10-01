@@ -14,8 +14,8 @@ a {
     display: flex;
     justify-content: flex-start;
     flex-flow: column;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     height: 100vh;
 
 }
@@ -104,7 +104,6 @@ a {
 }
 
 .div-info-newcar {
-    margin-left: 5%;
     color: whitesmoke;
     font-weight: bold;
     height: fit-content;
